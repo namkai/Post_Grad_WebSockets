@@ -17,7 +17,7 @@ const server = app.listen(PORT, (err) => {
 		if (err) {
 			console.log(err);
 		} else {
-			open(`http://localhost:${port}`);
+			open(`http://localhost:${PORT}`);
 }
 });
 
