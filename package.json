@@ -1,0 +1,18 @@
+{
+  "name": "post_grad_websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "open": "^0.0.5",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.2"
+  }
+}
