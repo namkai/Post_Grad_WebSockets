@@ -6,14 +6,14 @@ const open = require('open');
 
 /* eslint-disable no-console */
 
-const port = 3001 || process.env.PORT;
+const PORT = process.env.PORT || 8888;
 const app = express();
 
-app.get('*', (req, res) => {
-	res.sendFile(path.join(__dirname, '../PostGrad/build/index.html'));
-});
+//app.get('*', (req, res) => {
+//	res.sendFile(path.join(dirname, '../PostGrad/build/index.html'));
+//});
 
-const server = app.listen(port, (err) => {
+const server = app.listen(PORT, (err) => {
 		if (err) {
 			console.log(err);
 		} else {
